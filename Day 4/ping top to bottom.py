@@ -9,9 +9,9 @@ for i in range(1, 10):
     results = subprocess.run(["ping", "-n", "1", ip], capture_output=True, text=True)
     
     if "Destination host unreachable" in results.stdout or "Request timed out" in results.stdout:
-        print(f"* {ip} - UNREACHABLE❕".center(50))
+        print(f"* {ip} - UNREACHABLE❕")
     else:
-        print(f"* {ip} - REACHABLE ✅".center(50))
+        print(f"* {ip} - REACHABLE ✅")
 
 
 
