@@ -1,0 +1,30 @@
+# Network Automation Journey
+
+A 365-day journey from Network Engineer to Network Automation Engineer.
+
+## About
+- **Author:** Rehan
+- **Timeline:** 365 days
+
+## Skills Being Built
+- Python for Network Automation
+- Netmiko — SSH device management
+- Ansible — Config deployment
+- AWS Cloud Networking
+- FortiGate API Automation
+
+## Progress
+| Day | Topic | Status |
+|-----|-------|--------|
+| Day 1 | Setup, GitHub, Hello World | ✅ |
+| Day 2 | Variables, Strings, If/Else | ✅ |
+| Day 3 | Lists, Tuples, Dictionaries | ✅ |
+| Day 4 | Loops, Subprocess, IP Scanner | ✅ |
+| Day 5 | Functions, Ping Tool | ✅ |
+| Day 6 | File I/O, Network Scanner | ✅ |
+| Day 7 | Review, Comments, README | ✅ |
+
+## Projects Built
+- **Network Scanner** — Pings IP range, saves results to file
+- **Router Database** — Stores device info in dictionaries
+- **IP Range Scanner** — Scans subnet, shows reachable/unreachable devices
