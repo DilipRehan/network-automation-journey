@@ -1,5 +1,7 @@
-Network scan results 
-Unreachable 192.168.1.1
-Reachable 1.1.1.1 
-Unreachable 192.168.1.2
-Reachable 8.8.4.4 
+Network Scan Results - 2026-04-17 10:45:27
+========================================
+❕ 192.168.1.1 - UNREACHABLE
+✅ 1.1.1.1 - REACHABLE
+❕ 192.168.1.2 - UNREACHABLE
+✅ 8.8.4.4 - REACHABLE
+========================================
