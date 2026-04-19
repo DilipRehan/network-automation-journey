@@ -5,7 +5,7 @@ Compiled Wed 15-Jul-09 14:44 by shgautam
 
 ROM: Bootstrap program is Linux
 
-R1 uptime is 2 hours, 24 minutes
+R1 uptime is 4 minutes
 System returned to ROM by reload at 0
 System image file is "unix:/opt/unetlab/addons/iol/bin/i86bi-linux-l3-tpgen-adventerprisek"
 
