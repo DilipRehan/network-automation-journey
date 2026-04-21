@@ -1,0 +1,6 @@
+Device 192.168.138.136
+Timestamp: 2026-04-21_00-52-10
+========================================
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.138.136 YES DHCP   up                    up      
+FastEthernet0/1            unassigned      YES NVRAM  administratively down down    
