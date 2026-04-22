@@ -1,0 +1,102 @@
+Building configuration...
+
+Current configuration : 841 bytes
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname R3
+!
+boot-start-marker
+boot-end-marker
+!
+enable secret 5 $1$CSMq$Rx3mz/umWM4Wzy1PZMEL2.
+!
+no aaa new-model
+memory-size iomem 5
+ip cef
+!
+!
+!
+!
+ip domain name lab.local
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+username admin secret 5 $1$1xpi$6nxGDeUsnQEC/VOVboby70
+archive
+ log config
+  hidekeys
+! 
+!
+!
+!
+ip ssh version 2
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address dhcp
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+ip forward-protocol nd
+!
+!
+ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+line aux 0
+line vty 0 4
+ login local
+ transport input ssh
+!
+!
+end
