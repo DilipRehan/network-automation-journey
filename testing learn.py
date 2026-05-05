@@ -10,10 +10,14 @@ router = [
 try:
     connection = ConnectHandler(**router)
     connection.enable()
+    
 
     for rout in router:
         output = connection.send_command("show version")
         output1 = connection.send_config_set("hostname R1")
+
+        
+
         print(output)
 
 except Exception as e: 
